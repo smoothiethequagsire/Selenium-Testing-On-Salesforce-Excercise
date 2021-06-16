@@ -35,7 +35,7 @@ public class Base {
 
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\data.properties");
+				"src/main/java/resources/data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 
@@ -87,10 +87,10 @@ public class Base {
 		HomePage hp= new HomePage(driver);
 		
 		String username= GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\LoginData.xlsx",
+				"src/main/java/resources/LoginData.xlsx",
 				0, 0, 0);
 		String password= GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\LoginData.xlsx",
+				"src/main/java/resources/LoginData.xlsx",
 				0, 0, 1);
 		
 		hp.Username().sendKeys(username);

@@ -133,71 +133,71 @@ public class CreateAccountsTest extends Base {
 		Object[][] data = new Object[2][11];
 
 		data[0][0] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 0);
 		data[0][1] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 1);
 		data[0][2] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 2);
 		data[0][3] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 3);
 		data[0][4] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 4);
 		data[0][5] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 5);
 		data[0][6] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 6);
 		data[0][7] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 7);
 		data[0][8] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 8);
 		data[0][9] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 9);
 		data[0][10] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 0, 10);
 
 		data[1][0] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 0);
 		data[1][1] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 1);
 		data[1][2] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 2);
 		data[1][3] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 3);
 		data[1][4] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 4);
 		data[1][5] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 5);
 		data[1][6] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 6);
 		data[1][7] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 7);
 		data[1][8] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 8);
 		data[1][9] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 9);
 		data[1][10] = GetCellData(
-				"C:\\Users\\Leandro\\eclipse-workspace\\Excercisev1PageFactory\\src\\main\\java\\resources\\CreateAccountData.xlsx",
+				"src/main/java/resources/CreateAccountData.xlsx",
 				0, 1, 10);
 
 		return data;
