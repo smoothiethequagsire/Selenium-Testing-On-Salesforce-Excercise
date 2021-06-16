@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="ModifyAccountTest(failed)" verbose="0">
+    <classes>
+      <class name="test.Excercisev1PageFactory.ModifyAccountTest">
+        <methods>
+          <include name="ModifyAccount"/>
+          <include name="BuildDriver"/>
+          <include name="Terminate"/>
+          <include name="InvalidModification"/>
+        </methods>
+      </class> <!-- test.Excercisev1PageFactory.ModifyAccountTest -->
+    </classes>
+  </test> <!-- ModifyAccountTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-09T15:50:28 UYT" name="Suite" finished-at="2021-06-09T15:56:09 UYT" duration-ms="341007">
+    <groups>
+    </groups>
+    <test started-at="2021-06-09T15:50:28 UYT" name="NavigateToServiceTest" finished-at="2021-06-09T15:51:26 UYT" duration-ms="57383">
+      <class name="test.Excercisev1PageFactory.HomePageTest">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@2f112965]" started-at="2021-06-09T15:50:28 UYT" name="BuildDriver" finished-at="2021-06-09T15:50:41 UYT" duration-ms="12427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildDriver -->
+        <test-method signature="NavigateToService()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@2f112965]" started-at="2021-06-09T15:50:41 UYT" name="NavigateToService" finished-at="2021-06-09T15:51:24 UYT" duration-ms="42584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToService -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@2f112965]" started-at="2021-06-09T15:51:24 UYT" name="Terminate" finished-at="2021-06-09T15:51:26 UYT" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- test.Excercisev1PageFactory.HomePageTest -->
+    </test> <!-- NavigateToServiceTest -->
+    <test started-at="2021-06-09T15:51:26 UYT" name="NavigateTabsTest" finished-at="2021-06-09T15:52:46 UYT" duration-ms="79778">
+      <class name="test.Excercisev1PageFactory.ServicePageNavigationTest">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@47d90b9e]" started-at="2021-06-09T15:51:26 UYT" name="BuildDriver" finished-at="2021-06-09T15:51:53 UYT" duration-ms="26785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildDriver -->
+        <test-method signature="NavigateTabs()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@47d90b9e]" started-at="2021-06-09T15:51:53 UYT" name="NavigateTabs" finished-at="2021-06-09T15:52:45 UYT" duration-ms="52202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateTabs -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@47d90b9e]" started-at="2021-06-09T15:52:45 UYT" name="Terminate" finished-at="2021-06-09T15:52:46 UYT" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- test.Excercisev1PageFactory.ServicePageNavigationTest -->
+    </test> <!-- NavigateTabsTest -->
+    <test started-at="2021-06-09T15:52:46 UYT" name="CreateAccountsTest" finished-at="2021-06-09T15:54:06 UYT" duration-ms="80090">
+      <class name="test.Excercisev1PageFactory.CreateAccountsTest">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@49b0b76]" started-at="2021-06-09T15:52:46 UYT" name="BuildDriver" finished-at="2021-06-09T15:53:13 UYT" duration-ms="26898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildDriver -->
+        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@49b0b76]" started-at="2021-06-09T15:53:16 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-09T15:53:41 UYT" duration-ms="25430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing account #1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Installation Partner]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Banking]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Medium]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Silver]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[julio]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRecords -->
+        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@49b0b76]" started-at="2021-06-09T15:53:41 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-09T15:54:02 UYT" duration-ms="21005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing account #2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Warm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prospect]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Construction]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Gold]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Maybe]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[octubre]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRecords -->
+        <test-method signature="CreateNullAccount()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@49b0b76]" started-at="2021-06-09T15:54:02 UYT" name="CreateNullAccount" finished-at="2021-06-09T15:54:06 UYT" depends-on-methods="test.Excercisev1PageFactory.CreateAccountsTest.CreateRecords" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNullAccount -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@49b0b76]" started-at="2021-06-09T15:54:06 UYT" name="Terminate" finished-at="2021-06-09T15:54:06 UYT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- test.Excercisev1PageFactory.CreateAccountsTest -->
+    </test> <!-- CreateAccountsTest -->
+    <test started-at="2021-06-09T15:54:06 UYT" name="CreateContactTest" finished-at="2021-06-09T15:54:51 UYT" duration-ms="45422">
+      <class name="test.Excercisev1PageFactory.CreateContactTest">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@3e2e18f2]" started-at="2021-06-09T15:54:06 UYT" name="BuildDriver" finished-at="2021-06-09T15:54:29 UYT" duration-ms="22755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildDriver -->
+        <test-method signature="CreateContactRec()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@3e2e18f2]" started-at="2021-06-09T15:54:29 UYT" name="CreateContactRec" finished-at="2021-06-09T15:54:51 UYT" duration-ms="22487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactRec -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@3e2e18f2]" started-at="2021-06-09T15:54:51 UYT" name="Terminate" finished-at="2021-06-09T15:54:51 UYT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- test.Excercisev1PageFactory.CreateContactTest -->
+    </test> <!-- CreateContactTest -->
+    <test started-at="2021-06-09T15:54:51 UYT" name="ModifyAccountTest" finished-at="2021-06-09T15:56:09 UYT" duration-ms="78034">
+      <class name="test.Excercisev1PageFactory.ModifyAccountTest">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@2e4b8173]" started-at="2021-06-09T15:54:51 UYT" name="BuildDriver" finished-at="2021-06-09T15:55:25 UYT" duration-ms="33950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildDriver -->
+        <test-method signature="ModifyAccount()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@2e4b8173]" started-at="2021-06-09T15:55:25 UYT" name="ModifyAccount" finished-at="2021-06-09T15:55:54 UYT" duration-ms="29032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyAccount -->
+        <test-method signature="InvalidModification()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@2e4b8173]" started-at="2021-06-09T15:55:54 UYT" name="InvalidModification" finished-at="2021-06-09T15:56:07 UYT" depends-on-methods="test.Excercisev1PageFactory.ModifyAccountTest.ModifyAccount" duration-ms="12528" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//lightning-input/div[@role='alert']"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RCPBVN47', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Leandro\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f3edb603c5c9eda7c906f96583725dd
+*** Element info: {Using=xpath, value=//lightning-input/div[@role='alert']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//lightning-input/div[@role='alert']"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RCPBVN47', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Leandro\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f3edb603c5c9eda7c906f96583725dd
+*** Element info: {Using=xpath, value=//lightning-input/div[@role='alert']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.getText(Unknown Source)
+at test.Excercisev1PageFactory.ModifyAccountTest.InvalidModification(ModifyAccountTest.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidModification -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@2e4b8173]" started-at="2021-06-09T15:56:07 UYT" name="Terminate" finished-at="2021-06-09T15:56:09 UYT" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- test.Excercisev1PageFactory.ModifyAccountTest -->
+    </test> <!-- ModifyAccountTest -->
+  </suite> <!-- Suite -->
+</testng-results>

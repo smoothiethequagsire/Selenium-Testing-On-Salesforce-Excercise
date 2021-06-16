@@ -1,0 +1,5 @@
+resources\Base.class
+PageObjects\HomePage.class
+PageObjects\ServicePage.class
+PageObjects\ContactPage.class
+PageObjects\AccountPage.class
