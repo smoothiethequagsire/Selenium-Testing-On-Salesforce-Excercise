@@ -40,6 +40,7 @@ public class ServicePageNavigationTest extends Base {
 			((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
 			String tabName = element.getText();
 			
+			
 			if (tabName.equalsIgnoreCase("cuentas") || tabName.equalsIgnoreCase("contactos")) {
 				w.until(ExpectedConditions.urlContains("Recent"));
 				w.until(ExpectedConditions.visibilityOf(sp.BttnNewCC()));
@@ -76,6 +77,7 @@ public class ServicePageNavigationTest extends Base {
 				driver.switchTo().defaultContent();
 			}
 		}
+		
 	}
 	
 	@AfterTest

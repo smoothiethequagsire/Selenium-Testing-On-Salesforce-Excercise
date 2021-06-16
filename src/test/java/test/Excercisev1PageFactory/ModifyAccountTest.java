@@ -43,6 +43,7 @@ public class ModifyAccountTest extends Base {
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", ap.OptionsDrDw());
 	
 		for (WebElement el : ap.Options()) {
+			w.until(ExpectedConditions.visibilityOf(el));
 			if (el.getText().equalsIgnoreCase("modificar")) {
 				((JavascriptExecutor) driver).executeScript("arguments[0].click();", el);
 				break;
