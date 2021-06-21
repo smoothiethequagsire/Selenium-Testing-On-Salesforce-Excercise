@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="ModifyAccountTest(failed)" verbose="0">
+  <test thread-count="5" name="NavigateToServiceTest(failed)" verbose="0">
     <classes>
-      <class name="test.Excercisev1PageFactory.ModifyAccountTest">
+      <class name="test.Excercisev1PageFactory.TestRunner">
         <methods>
-          <include name="ModifyAccount"/>
-          <include name="BuildDriver"/>
-          <include name="Terminate"/>
-          <include name="InvalidModification"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="5"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- test.Excercisev1PageFactory.ModifyAccountTest -->
+      </class> <!-- test.Excercisev1PageFactory.TestRunner -->
     </classes>
-  </test> <!-- ModifyAccountTest(failed) -->
+  </test> <!-- NavigateToServiceTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -6,8 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import resources.Base;
 
-public class HomePage {
+
+public class HomePage extends Base {
 	
 	WebDriver driver;
 	
@@ -50,7 +52,7 @@ public class HomePage {
 		return driver.findElement(By.xpath("//div[@class='appLauncher slds-context-bar__icon-action']/button"));
 	}
 	
-	@FindBy (xpath="//a[@href='/lightning/app/06m5e000001cBCSAA2']")
+	@FindBy (xpath="//span/p[text()='Servicio']")
 	WebElement serviceOption;
 	
 	public WebElement ServiceOption() {

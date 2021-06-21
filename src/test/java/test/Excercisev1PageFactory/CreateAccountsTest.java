@@ -28,7 +28,7 @@ public class CreateAccountsTest extends Base {
 		driver = InitializeDriver();
 		ap = new AccountPage(driver);
 		w = new WebDriverWait(driver, 20);
-		driver.get(ap.URL());
+		driver.get(getPersonalIdForUrl() + ap.URL());
 		Login(driver);
 	}
 
@@ -51,7 +51,7 @@ public class CreateAccountsTest extends Base {
 			}
 		}
 		
-		((JavascriptExecutor) driver).executeScript("arguments[0].click();", ap.TypeDropDw());
+		clickElement(driver, ap.TypeDropDw());
 		Els = driver.findElements(By.xpath("//span[@class='slds-media__body']"));
 		for (WebElement el : Els) {
 			if (el.getText().equalsIgnoreCase(types)) {

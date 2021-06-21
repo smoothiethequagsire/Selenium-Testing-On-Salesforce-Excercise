@@ -16,7 +16,7 @@ public class ServicePage {
 		PageFactory.initElements(driver, this);
 	}
 
-	String url= "https://d5e0000019ce6eai-dev-ed.lightning.force.com/lightning/page/home";
+	String url= "-dev-ed.lightning.force.com/lightning/page/home";
 
 	public String URL() {
 		return url;

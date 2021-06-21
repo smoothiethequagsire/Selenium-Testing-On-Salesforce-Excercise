@@ -16,7 +16,7 @@ WebDriver driver;
 		PageFactory.initElements(driver, this);
 	}
 	
-	String url = "https://d5e0000019ce6eai-dev-ed.lightning.force.com/lightning/o/Account/list?filterName=Recent";
+	String url = "-dev-ed.lightning.force.com/lightning/o/Account/list?filterName=Recent";
 	public String URL() {
 		return url;
 	}
@@ -194,6 +194,12 @@ WebDriver driver;
 	WebElement invalidEmployeeNumber;
 	public WebElement InvalidEmpNumMsg(){
 		return invalidEmployeeNumber;
+	}
+	
+	@FindBy (xpath="//a[text()='Testing account #2']")
+	WebElement testingAcc2;
+	public WebElement CreatedAccount(){
+		return testingAcc2;
 	}
 	
 }

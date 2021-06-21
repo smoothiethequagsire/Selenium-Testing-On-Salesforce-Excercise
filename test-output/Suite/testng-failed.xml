@@ -12,4 +12,39 @@
       </class> <!-- test.Excercisev1PageFactory.ServicePageNavigationTest -->
     </classes>
   </test> <!-- NavigateTabsTest(failed) -->
+  <test thread-count="5" name="CreateAccountsTest(failed)">
+    <classes>
+      <class name="test.Excercisev1PageFactory.CreateAccountsTest">
+        <methods>
+          <include name="BuildDriver"/>
+          <include name="Terminate"/>
+          <include name="CreateRecords"/>
+          <include name="CreateNullAccount"/>
+        </methods>
+      </class> <!-- test.Excercisev1PageFactory.CreateAccountsTest -->
+    </classes>
+  </test> <!-- CreateAccountsTest(failed) -->
+  <test thread-count="5" name="CreateContactTest(failed)">
+    <classes>
+      <class name="test.Excercisev1PageFactory.CreateContactTest">
+        <methods>
+          <include name="Terminate"/>
+          <include name="CreateContactRec"/>
+          <include name="BuildDriver"/>
+        </methods>
+      </class> <!-- test.Excercisev1PageFactory.CreateContactTest -->
+    </classes>
+  </test> <!-- CreateContactTest(failed) -->
+  <test thread-count="5" name="ModifyAccountTest(failed)">
+    <classes>
+      <class name="test.Excercisev1PageFactory.ModifyAccountTest">
+        <methods>
+          <include name="ModifyAccount"/>
+          <include name="BuildDriver"/>
+          <include name="Terminate"/>
+          <include name="InvalidModification"/>
+        </methods>
+      </class> <!-- test.Excercisev1PageFactory.ModifyAccountTest -->
+    </classes>
+  </test> <!-- ModifyAccountTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

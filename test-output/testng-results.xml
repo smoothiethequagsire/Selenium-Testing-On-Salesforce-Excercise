@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-09T16:13:05 UYT" name="Suite" finished-at="2021-06-09T16:17:38 UYT" duration-ms="273083">
+  <suite started-at="2021-06-21T16:17:54 UYT" name="Suite" finished-at="2021-06-21T16:23:59 UYT" duration-ms="365079">
     <groups>
     </groups>
-    <test started-at="2021-06-09T16:13:05 UYT" name="NavigateToServiceTest" finished-at="2021-06-09T16:13:44 UYT" duration-ms="38577">
+    <test started-at="2021-06-21T16:17:54 UYT" name="NavigateToServiceTest" finished-at="2021-06-21T16:18:52 UYT" duration-ms="58231">
       <class name="test.Excercisev1PageFactory.HomePageTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@6e171cd7]" started-at="2021-06-09T16:13:05 UYT" name="BuildDriver" finished-at="2021-06-09T16:13:14 UYT" duration-ms="8731" status="PASS">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@79924b]" started-at="2021-06-21T16:17:54 UYT" name="BuildDriver" finished-at="2021-06-21T16:18:12 UYT" duration-ms="17696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuildDriver -->
-        <test-method signature="NavigateToService()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@6e171cd7]" started-at="2021-06-09T16:13:14 UYT" name="NavigateToService" finished-at="2021-06-09T16:13:43 UYT" duration-ms="29135" status="PASS">
+        <test-method signature="NavigateToService()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@79924b]" started-at="2021-06-21T16:18:12 UYT" name="NavigateToService" finished-at="2021-06-21T16:18:51 UYT" duration-ms="39601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToService -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@6e171cd7]" started-at="2021-06-09T16:13:43 UYT" name="Terminate" finished-at="2021-06-09T16:13:44 UYT" duration-ms="581" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@79924b]" started-at="2021-06-21T16:18:52 UYT" name="Terminate" finished-at="2021-06-21T16:18:52 UYT" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- test.Excercisev1PageFactory.HomePageTest -->
     </test> <!-- NavigateToServiceTest -->
-    <test started-at="2021-06-09T16:13:44 UYT" name="NavigateTabsTest" finished-at="2021-06-09T16:14:47 UYT" duration-ms="62635">
+    <test started-at="2021-06-21T16:18:53 UYT" name="NavigateTabsTest" finished-at="2021-06-21T16:20:54 UYT" duration-ms="120866">
       <class name="test.Excercisev1PageFactory.ServicePageNavigationTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@5158b42f]" started-at="2021-06-09T16:13:44 UYT" name="BuildDriver" finished-at="2021-06-09T16:13:56 UYT" duration-ms="12244" status="PASS">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@4f83df68]" started-at="2021-06-21T16:18:53 UYT" name="BuildDriver" finished-at="2021-06-21T16:19:44 UYT" duration-ms="50247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuildDriver -->
-        <test-method signature="NavigateTabs()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@5158b42f]" started-at="2021-06-09T16:13:56 UYT" name="NavigateTabs" finished-at="2021-06-09T16:14:46 UYT" duration-ms="49926" status="PASS">
+        <test-method signature="NavigateTabs()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@4f83df68]" started-at="2021-06-21T16:19:44 UYT" name="NavigateTabs" finished-at="2021-06-21T16:20:54 UYT" duration-ms="70051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateTabs -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@5158b42f]" started-at="2021-06-09T16:14:46 UYT" name="Terminate" finished-at="2021-06-09T16:14:47 UYT" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@4f83df68]" started-at="2021-06-21T16:20:54 UYT" name="Terminate" finished-at="2021-06-21T16:20:54 UYT" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- test.Excercisev1PageFactory.ServicePageNavigationTest -->
     </test> <!-- NavigateTabsTest -->
-    <test started-at="2021-06-09T16:14:47 UYT" name="CreateAccountsTest" finished-at="2021-06-09T16:16:00 UYT" duration-ms="72825">
+    <test started-at="2021-06-21T16:20:54 UYT" name="CreateAccountsTest" finished-at="2021-06-21T16:22:17 UYT" duration-ms="83192">
       <class name="test.Excercisev1PageFactory.CreateAccountsTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@77847718]" started-at="2021-06-09T16:14:47 UYT" name="BuildDriver" finished-at="2021-06-09T16:15:12 UYT" duration-ms="25334" status="PASS">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:20:54 UYT" name="BuildDriver" finished-at="2021-06-21T16:21:25 UYT" duration-ms="30392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuildDriver -->
-        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@77847718]" started-at="2021-06-09T16:15:15 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-09T16:15:36 UYT" duration-ms="21676" status="PASS">
+        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:21:28 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-21T16:21:54 UYT" duration-ms="25820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRecords -->
-        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@77847718]" started-at="2021-06-09T16:15:36 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-09T16:15:56 UYT" duration-ms="19791" status="PASS">
+        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:21:54 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-21T16:22:14 UYT" duration-ms="20162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,47 +165,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRecords -->
-        <test-method signature="CreateNullAccount()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@77847718]" started-at="2021-06-09T16:15:56 UYT" name="CreateNullAccount" finished-at="2021-06-09T16:15:59 UYT" depends-on-methods="test.Excercisev1PageFactory.CreateAccountsTest.CreateRecords" duration-ms="3046" status="PASS">
+        <test-method signature="CreateNullAccount()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:22:14 UYT" name="CreateNullAccount" finished-at="2021-06-21T16:22:17 UYT" depends-on-methods="test.Excercisev1PageFactory.CreateAccountsTest.CreateRecords" duration-ms="3375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNullAccount -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@77847718]" started-at="2021-06-09T16:15:59 UYT" name="Terminate" finished-at="2021-06-09T16:16:00 UYT" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:22:17 UYT" name="Terminate" finished-at="2021-06-21T16:22:17 UYT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- test.Excercisev1PageFactory.CreateAccountsTest -->
     </test> <!-- CreateAccountsTest -->
-    <test started-at="2021-06-09T16:16:00 UYT" name="CreateContactTest" finished-at="2021-06-09T16:16:45 UYT" duration-ms="45279">
+    <test started-at="2021-06-21T16:22:17 UYT" name="CreateContactTest" finished-at="2021-06-21T16:23:06 UYT" duration-ms="48555">
       <class name="test.Excercisev1PageFactory.CreateContactTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@77fbd92c]" started-at="2021-06-09T16:16:00 UYT" name="BuildDriver" finished-at="2021-06-09T16:16:25 UYT" duration-ms="25545" status="PASS">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@7b2bbc3]" started-at="2021-06-21T16:22:17 UYT" name="BuildDriver" finished-at="2021-06-21T16:22:28 UYT" duration-ms="10878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuildDriver -->
-        <test-method signature="CreateContactRec()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@77fbd92c]" started-at="2021-06-09T16:16:25 UYT" name="CreateContactRec" finished-at="2021-06-09T16:16:44 UYT" duration-ms="18783" status="PASS">
+        <test-method signature="CreateContactRec()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@7b2bbc3]" started-at="2021-06-21T16:22:28 UYT" name="CreateContactRec" finished-at="2021-06-21T16:23:06 UYT" duration-ms="37343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateContactRec -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@77fbd92c]" started-at="2021-06-09T16:16:44 UYT" name="Terminate" finished-at="2021-06-09T16:16:45 UYT" duration-ms="944" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@7b2bbc3]" started-at="2021-06-21T16:23:06 UYT" name="Terminate" finished-at="2021-06-21T16:23:06 UYT" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- test.Excercisev1PageFactory.CreateContactTest -->
     </test> <!-- CreateContactTest -->
-    <test started-at="2021-06-09T16:16:45 UYT" name="ModifyAccountTest" finished-at="2021-06-09T16:17:38 UYT" duration-ms="52992">
+    <test started-at="2021-06-21T16:23:06 UYT" name="ModifyAccountTest" finished-at="2021-06-21T16:23:59 UYT" duration-ms="53074">
       <class name="test.Excercisev1PageFactory.ModifyAccountTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@1bd4fdd]" started-at="2021-06-09T16:16:45 UYT" name="BuildDriver" finished-at="2021-06-09T16:17:13 UYT" duration-ms="27093" status="PASS">
+        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:06 UYT" name="BuildDriver" finished-at="2021-06-21T16:23:29 UYT" duration-ms="22799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuildDriver -->
-        <test-method signature="ModifyAccount()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@1bd4fdd]" started-at="2021-06-09T16:17:13 UYT" name="ModifyAccount" finished-at="2021-06-09T16:17:32 UYT" duration-ms="19127" status="PASS">
+        <test-method signature="ModifyAccount()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:29 UYT" name="ModifyAccount" finished-at="2021-06-21T16:23:53 UYT" duration-ms="24308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ModifyAccount -->
-        <test-method signature="InvalidModification()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@1bd4fdd]" started-at="2021-06-09T16:17:32 UYT" name="InvalidModification" finished-at="2021-06-09T16:17:38 UYT" depends-on-methods="test.Excercisev1PageFactory.ModifyAccountTest.ModifyAccount" duration-ms="6330" status="PASS">
+        <test-method signature="InvalidModification()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:53 UYT" name="InvalidModification" finished-at="2021-06-21T16:23:59 UYT" depends-on-methods="resources.Base.ModifyAccount" duration-ms="5559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidModification -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@1bd4fdd]" started-at="2021-06-09T16:17:38 UYT" name="Terminate" finished-at="2021-06-09T16:17:38 UYT" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:59 UYT" name="Terminate" finished-at="2021-06-21T16:23:59 UYT" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
