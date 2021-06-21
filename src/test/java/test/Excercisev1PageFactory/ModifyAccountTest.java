@@ -19,13 +19,14 @@ public class ModifyAccountTest extends Base {
 
 	WebDriver driver;
 	AccountPage ap;
+	
 
 	@BeforeTest
 	public void BuildDriver() throws IOException {
 		driver = InitializeDriver();
 		ap = new AccountPage(driver);
 		w = new WebDriverWait(driver, 20);
-		driver.get(ap.URL());
+		driver.get(getPersonalIdForUrl() + ap.URL());
 		Login(driver);
 	}
 

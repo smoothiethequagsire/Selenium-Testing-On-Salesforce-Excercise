@@ -19,13 +19,14 @@ public class ServicePageNavigationTest extends Base {
 
 	WebDriver driver;
 	ServicePage sp;
+	WebDriverWait w;
 
 	@BeforeTest
 	public void BuildDriver() throws IOException {
 		driver = InitializeDriver();
 		sp = new ServicePage(driver);
 		w = new WebDriverWait(driver, 20);
-		driver.get(sp.URL());
+		driver.get(getPersonalIdForUrl() + sp.URL());
 		Login(driver);
 	}
 	
