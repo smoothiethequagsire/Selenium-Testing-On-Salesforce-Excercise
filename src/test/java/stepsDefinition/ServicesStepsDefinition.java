@@ -3,12 +3,15 @@ package stepsDefinition;
 import java.io.IOException;
 
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import PageObjects.AccountPage;
+import PageObjects.ContactPage;
 import PageObjects.HomePage;
 import PageObjects.ServicePage;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,18 +21,21 @@ import resources.Base;
 
 public class ServicesStepsDefinition extends Base {
 	
-	WebDriver driver;
-	HomePage hp;
-	ServicePage sp;
-	WebDriverWait w;
-	
-	@Given("^driver is initialized$")
-	public void driver_is_initialized() throws IOException {
+	@Before
+	public void initialize() throws IOException {
 		driver= InitializeDriver();
 		w = new WebDriverWait(driver, 20);
+		ap= new AccountPage(driver);
+		cp= new ContactPage(driver);
 		hp= new HomePage(driver);
 		sp= new ServicePage(driver);
 	}
+	
+	@After
+	public void tearDown() {
+		driver.quit();
+	}
+
 	
 	@Given("^user is on Salesforce login page$")
 	public void user_is_on_salesforce_login_page() throws IOException {
@@ -42,8 +48,9 @@ public class ServicesStepsDefinition extends Base {
 	}
 	
 	@And("^user is redirected to home page$")
-	public void user_is_redirected_to_home_page() {
+	public void user_is_redirected_to_home_page() throws IOException {
 		w.until(ExpectedConditions.urlContains("home"));
+		getEnvironmentUrl();
         Assert.assertTrue(driver.getCurrentUrl().contains("/home"));
 	}
 	

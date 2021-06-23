@@ -1,7 +1,5 @@
 Feature: Create accounts implementation
-    
-    Background: 
-    Given driver is initialized1
+
     
  	Scenario: Create accounts
     Given user goes to account page

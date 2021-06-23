@@ -23,6 +23,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageObjects.AccountPage;
+import PageObjects.ContactPage;
 import PageObjects.HomePage;
 import PageObjects.ServicePage;
 
@@ -30,7 +31,13 @@ public class Base {
 	
 	public ChromeOptions opt;
 	public Properties prop;
-	public WebDriverWait w;
+	public static WebDriverWait w;
+	public static WebDriver driver;
+	public static HomePage hp;
+	public static AccountPage ap;
+	public static ServicePage sp;
+	public static ContactPage cp;
+	public static String environmentUrl;
 	
 	public WebDriver InitializeDriver() throws IOException {
 		
@@ -42,7 +49,7 @@ public class Base {
 				"src/main/java/resources/data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
-		WebDriver driver=null;
+		
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\Leandro\\Downloads\\chromedriver_win32\\chromedriver.exe");
@@ -50,6 +57,7 @@ public class Base {
 		}
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	
 		return driver;
 	}
 	
@@ -84,7 +92,8 @@ public class Base {
 		if (dataType == CellType.NUMERIC) {
 			data = NumberToTextConverter.toText(wantedCell.getNumericCellValue());
 		}
-
+		
+		wkb.close();
 		return data;
 	}
 
@@ -294,9 +303,10 @@ public class Base {
 		clickElement(driver, ap.SaveBttn());
 	}
 	
-	public String getPersonalIdForUrl() throws IOException {
-		return GetCellData(
-				"src/main/java/resources/LoginData.xlsx",
-				0, 0, 2);
+	public void getEnvironmentUrl() throws IOException {
+		String Url= driver.getCurrentUrl();
+		String[] UrlParts= Url.split("-", 2);
+		environmentUrl= UrlParts[0];
+		System.out.println(environmentUrl);
 	}
 }

@@ -7,12 +7,7 @@ import java.util.Set;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import PageObjects.AccountPage;
-import PageObjects.ContactPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -21,30 +16,17 @@ import resources.Base;
 
 public class CreateContactStepDefinition extends Base {
 	
-	WebDriver driver;
-	WebDriverWait w;
-	AccountPage ap;
-	ContactPage cp;
 	String accountName;
 	String parentId;
 	String childId;
 	
-	@Given("^driver is initialized2$")
-	public void driver_is_initialized2() throws IOException {
-		driver= InitializeDriver();
-		w = new WebDriverWait(driver, 20);
-		ap= new AccountPage(driver);
-		cp= new ContactPage(driver);
-	}
-
-	@Given("^user is on account page")
+	@Given("user is on account page")
 	public void user_is_on_account_page() throws IOException {
-		ap = new AccountPage(driver);
-		cp = new ContactPage(driver);
-		driver.get(getPersonalIdForUrl() + ap.URL());
+		driver.get(environmentUrl+ap.URL());
 		Login(driver);
 	}
-
+	
+	
 	@And("^name is extracted from an account$")
 	public void name_is_extracted_from_an_account() {
 		w.until(ExpectedConditions.urlContains("Recent"));

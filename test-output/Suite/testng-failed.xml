@@ -1,50 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="NavigateTabsTest(failed)">
+  <test thread-count="5" name="NavigateToServiceTest(failed)">
     <classes>
-      <class name="test.Excercisev1PageFactory.ServicePageNavigationTest">
+      <class name="test.Excercisev1PageFactory.TestRunner">
         <methods>
-          <include name="BuildDriver"/>
-          <include name="Terminate"/>
-          <include name="NavigateTabs"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- test.Excercisev1PageFactory.ServicePageNavigationTest -->
+      </class> <!-- test.Excercisev1PageFactory.TestRunner -->
     </classes>
-  </test> <!-- NavigateTabsTest(failed) -->
-  <test thread-count="5" name="CreateAccountsTest(failed)">
-    <classes>
-      <class name="test.Excercisev1PageFactory.CreateAccountsTest">
-        <methods>
-          <include name="BuildDriver"/>
-          <include name="Terminate"/>
-          <include name="CreateRecords"/>
-          <include name="CreateNullAccount"/>
-        </methods>
-      </class> <!-- test.Excercisev1PageFactory.CreateAccountsTest -->
-    </classes>
-  </test> <!-- CreateAccountsTest(failed) -->
-  <test thread-count="5" name="CreateContactTest(failed)">
-    <classes>
-      <class name="test.Excercisev1PageFactory.CreateContactTest">
-        <methods>
-          <include name="Terminate"/>
-          <include name="CreateContactRec"/>
-          <include name="BuildDriver"/>
-        </methods>
-      </class> <!-- test.Excercisev1PageFactory.CreateContactTest -->
-    </classes>
-  </test> <!-- CreateContactTest(failed) -->
-  <test thread-count="5" name="ModifyAccountTest(failed)">
-    <classes>
-      <class name="test.Excercisev1PageFactory.ModifyAccountTest">
-        <methods>
-          <include name="ModifyAccount"/>
-          <include name="BuildDriver"/>
-          <include name="Terminate"/>
-          <include name="InvalidModification"/>
-        </methods>
-      </class> <!-- test.Excercisev1PageFactory.ModifyAccountTest -->
-    </classes>
-  </test> <!-- ModifyAccountTest(failed) -->
+  </test> <!-- NavigateToServiceTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -28,7 +28,7 @@ public class CreateAccountsTest extends Base {
 		driver = InitializeDriver();
 		ap = new AccountPage(driver);
 		w = new WebDriverWait(driver, 20);
-		driver.get(getPersonalIdForUrl() + ap.URL());
+		driver.get(ap.URL());
 		Login(driver);
 	}
 

@@ -1,215 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-21T16:17:54 UYT" name="Suite" finished-at="2021-06-21T16:23:59 UYT" duration-ms="365079">
+  <suite started-at="2021-06-23T12:34:27 UYT" name="Default suite" finished-at="2021-06-23T12:39:45 UYT" duration-ms="317901">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-06-21T16:17:54 UYT" name="NavigateToServiceTest" finished-at="2021-06-21T16:18:52 UYT" duration-ms="58231">
-      <class name="test.Excercisev1PageFactory.HomePageTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@79924b]" started-at="2021-06-21T16:17:54 UYT" name="BuildDriver" finished-at="2021-06-21T16:18:12 UYT" duration-ms="17696" status="PASS">
+    <test started-at="2021-06-23T12:34:27 UYT" name="Default test" finished-at="2021-06-23T12:39:45 UYT" duration-ms="317901">
+      <class name="test.Excercisev1PageFactory.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:34:27 UYT" name="setUpClass" finished-at="2021-06-23T12:34:28 UYT" duration-ms="1072" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BuildDriver -->
-        <test-method signature="NavigateToService()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@79924b]" started-at="2021-06-21T16:18:12 UYT" name="NavigateToService" finished-at="2021-06-21T16:18:51 UYT" duration-ms="39601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavigateToService -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.HomePageTest@79924b]" started-at="2021-06-21T16:18:52 UYT" name="Terminate" finished-at="2021-06-21T16:18:52 UYT" duration-ms="662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- test.Excercisev1PageFactory.HomePageTest -->
-    </test> <!-- NavigateToServiceTest -->
-    <test started-at="2021-06-21T16:18:53 UYT" name="NavigateTabsTest" finished-at="2021-06-21T16:20:54 UYT" duration-ms="120866">
-      <class name="test.Excercisev1PageFactory.ServicePageNavigationTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@4f83df68]" started-at="2021-06-21T16:18:53 UYT" name="BuildDriver" finished-at="2021-06-21T16:19:44 UYT" duration-ms="50247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuildDriver -->
-        <test-method signature="NavigateTabs()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@4f83df68]" started-at="2021-06-21T16:19:44 UYT" name="NavigateTabs" finished-at="2021-06-21T16:20:54 UYT" duration-ms="70051" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavigateTabs -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ServicePageNavigationTest@4f83df68]" started-at="2021-06-21T16:20:54 UYT" name="Terminate" finished-at="2021-06-21T16:20:54 UYT" duration-ms="560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- test.Excercisev1PageFactory.ServicePageNavigationTest -->
-    </test> <!-- NavigateTabsTest -->
-    <test started-at="2021-06-21T16:20:54 UYT" name="CreateAccountsTest" finished-at="2021-06-21T16:22:17 UYT" duration-ms="83192">
-      <class name="test.Excercisev1PageFactory.CreateAccountsTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:20:54 UYT" name="BuildDriver" finished-at="2021-06-21T16:21:25 UYT" duration-ms="30392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuildDriver -->
-        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:21:28 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-21T16:21:54 UYT" duration-ms="25820" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:34:28 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T12:35:48 UYT" duration-ms="79470" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Testing account #1]]>
+                <![CDATA["Valid login and navigation action"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hot]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Installation Partner]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Private]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Banking]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Medium]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Silver]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[julio]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[25]]>
+                <![CDATA["Optional[Login action implementation]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateRecords -->
-        <test-method signature="CreateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:21:54 UYT" name="CreateRecords" data-provider="GetData" finished-at="2021-06-21T16:22:14 UYT" duration-ms="20162" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:35:48 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T12:37:06 UYT" duration-ms="78172" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Testing account #2]]>
+                <![CDATA["Create accounts"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Warm]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Prospect]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Public]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Construction]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[High]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Gold]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Maybe]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[octubre]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[10]]>
+                <![CDATA["Optional[Create accounts implementation]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateRecords -->
-        <test-method signature="CreateNullAccount()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:22:14 UYT" name="CreateNullAccount" finished-at="2021-06-21T16:22:17 UYT" depends-on-methods="test.Excercisev1PageFactory.CreateAccountsTest.CreateRecords" duration-ms="3375" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:37:06 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T12:37:36 UYT" duration-ms="30052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Attempt to create null account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create accounts implementation]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateNullAccount -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateAccountsTest@4562e04d]" started-at="2021-06-21T16:22:17 UYT" name="Terminate" finished-at="2021-06-21T16:22:17 UYT" duration-ms="245" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:37:36 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T12:38:20 UYT" duration-ms="43397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new contact"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create contact implementation]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- test.Excercisev1PageFactory.CreateAccountsTest -->
-    </test> <!-- CreateAccountsTest -->
-    <test started-at="2021-06-21T16:22:17 UYT" name="CreateContactTest" finished-at="2021-06-21T16:23:06 UYT" duration-ms="48555">
-      <class name="test.Excercisev1PageFactory.CreateContactTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@7b2bbc3]" started-at="2021-06-21T16:22:17 UYT" name="BuildDriver" finished-at="2021-06-21T16:22:28 UYT" duration-ms="10878" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:38:20 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T12:39:05 UYT" duration-ms="45017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Modify account with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Modify accounts]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BuildDriver -->
-        <test-method signature="CreateContactRec()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@7b2bbc3]" started-at="2021-06-21T16:22:28 UYT" name="CreateContactRec" finished-at="2021-06-21T16:23:06 UYT" duration-ms="37343" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:39:05 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T12:39:45 UYT" duration-ms="40338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Modify account with invalid employee number data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Modify accounts]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateContactRec -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.CreateContactTest@7b2bbc3]" started-at="2021-06-21T16:23:06 UYT" name="Terminate" finished-at="2021-06-21T16:23:06 UYT" duration-ms="322" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.Excercisev1PageFactory.TestRunner@37afeb11]" started-at="2021-06-23T12:39:45 UYT" name="tearDownClass" finished-at="2021-06-23T12:39:45 UYT" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- test.Excercisev1PageFactory.CreateContactTest -->
-    </test> <!-- CreateContactTest -->
-    <test started-at="2021-06-21T16:23:06 UYT" name="ModifyAccountTest" finished-at="2021-06-21T16:23:59 UYT" duration-ms="53074">
-      <class name="test.Excercisev1PageFactory.ModifyAccountTest">
-        <test-method is-config="true" signature="BuildDriver()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:06 UYT" name="BuildDriver" finished-at="2021-06-21T16:23:29 UYT" duration-ms="22799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuildDriver -->
-        <test-method signature="ModifyAccount()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:29 UYT" name="ModifyAccount" finished-at="2021-06-21T16:23:53 UYT" duration-ms="24308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ModifyAccount -->
-        <test-method signature="InvalidModification()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:53 UYT" name="InvalidModification" finished-at="2021-06-21T16:23:59 UYT" depends-on-methods="resources.Base.ModifyAccount" duration-ms="5559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidModification -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:test.Excercisev1PageFactory.ModifyAccountTest@235834f2]" started-at="2021-06-21T16:23:59 UYT" name="Terminate" finished-at="2021-06-21T16:23:59 UYT" duration-ms="399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- test.Excercisev1PageFactory.ModifyAccountTest -->
-    </test> <!-- ModifyAccountTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.Excercisev1PageFactory.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

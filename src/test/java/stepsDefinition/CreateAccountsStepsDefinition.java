@@ -3,11 +3,8 @@ package stepsDefinition;
 import java.io.IOException;
 
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import PageObjects.AccountPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,21 +13,9 @@ import resources.Base;
 
 public class CreateAccountsStepsDefinition extends Base {
 
-	AccountPage ap;
-	WebDriver driver;
-	WebDriverWait w;
-	
-	@Given("^driver is initialized1$")
-	public void driver_is_initialized1() throws IOException {
-		driver= InitializeDriver();
-		w = new WebDriverWait(driver, 20);
-		ap= new AccountPage(driver);
-	}
-
 	@Given("^user goes to account page$")
 	public void user_goes_to_account_page() throws IOException {
-		ap = new AccountPage(driver);
-		driver.get(getPersonalIdForUrl() + ap.URL());
+		driver.get(environmentUrl+ap.URL());
 		Login(driver);
 	}
 

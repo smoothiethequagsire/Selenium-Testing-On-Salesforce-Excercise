@@ -1,7 +1,5 @@
 Feature: Modify accounts
 
-	Background: 
-	Given driver is initialized3
 	    
  	Scenario: Modify account with valid data
  		Given user fell to account page

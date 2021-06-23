@@ -1,7 +1,5 @@
 Feature: Login action implementation
 
-    Background: 
-    Given driver is initialized
     
  	Scenario: Valid login and navigation action
     Given user is on Salesforce login page

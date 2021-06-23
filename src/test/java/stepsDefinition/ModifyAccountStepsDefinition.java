@@ -3,13 +3,10 @@ package stepsDefinition;
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import PageObjects.AccountPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,26 +15,15 @@ import resources.Base;
 
 public class ModifyAccountStepsDefinition extends Base {
 
-	WebDriver driver;
-	WebDriverWait w;
-	AccountPage ap;
 	String rating = "Hot";
 	String upOpp = "Yes";
 	String type = "Technology Partner";
 	String invalidEmployee = "1431655766";
 	String invalidMessage = "Empleados: valor fuera del rango válido en campo numérico: 1431655766";
-	
-	@Given("^driver is initialized3$")
-	public void driver_is_initialized3() throws IOException {
-		driver= InitializeDriver();
-		w = new WebDriverWait(driver, 20);
-		ap= new AccountPage(driver);
-	}
-	
+
 	@Given("^user fell to account page$")
 	public void user_fell_to_account_page() throws IOException {
-		ap= new AccountPage(driver);
-		driver.get(getPersonalIdForUrl() + ap.URL());
+		driver.get(environmentUrl+ ap.URL());
 		Login(driver);
 	}
 
@@ -83,6 +69,5 @@ public class ModifyAccountStepsDefinition extends Base {
 		Assert.assertEquals(invalidMessage, ap.InvalidEmpNumMsg().getText());
 		driver.close();
 	}
-
 
 }

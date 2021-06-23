@@ -1,7 +1,5 @@
 Feature: Create contact implementation
-    
-    Background: 
-    Given driver is initialized2
+ 
     
  	Scenario: Create new contact
  		Given user is on account page
